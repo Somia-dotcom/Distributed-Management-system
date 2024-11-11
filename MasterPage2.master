@@ -1,0 +1,258 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    
+    <p style="height: 0px">
+        <br />
+    </p>
+    <asp:Panel ID="Panel4" runat="server" 
+        
+        
+    
+        style="z-index: 1; left: 10px; top: 226px; position: absolute; height: 414px; width: 225px">
+        <asp:Menu ID="Menu1" runat="server" RenderingMode="Table" Font-Size="Small" 
+             ForeColor="#284E98" Height="300px" Width="161px" Font-Bold="True" 
+             Font-Italic="False" StaticSubMenuIndent="10px" BackColor="#B5C7DE" 
+             DynamicHorizontalOffset="2" Font-Names="Verdana" style="margin-top: 76px">
+            <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <DynamicMenuStyle BackColor="#B5C7DE" />
+            <DynamicSelectedStyle Font-Bold="True" BackColor="#507CD1" />
+            <Items>
+                <asp:MenuItem Text="View Stock Details" 
+                Value="View Stock Details" >
+                    <asp:MenuItem NavigateUrl="~/stockad.aspx" Text="Shopwise " Value="Shopwise ">
+                    </asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/datestock.aspx" Text="DateWise" Value="DateWise">
+                    </asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="View Sales Details" 
+                Value="View Sales Details">
+                    <asp:MenuItem NavigateUrl="~/salead.aspx" Text="ShopWise" Value="ShopWise">
+                    </asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/datesale.aspx" Text="DateWise" Value="DateWise">
+                    </asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="View Customer Details" Value="View Customer Details">
+                    <asp:MenuItem NavigateUrl="~/customad.aspx" Text="ShopWise" Value="ShopWise">
+                    </asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/customeradmin.aspx" Text="CustomerWise" 
+                    Value="CustomerWise"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="Employee">
+                    <asp:MenuItem NavigateUrl="~/loginad.aspx" Text="Create New Employee" 
+                    Value="Create New Employee"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/viewemployee.aspx" Text="View Employee" 
+                    Value="View Employee"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="View Customer Feedback" Value="View Customer Feedback" 
+                NavigateUrl="~/feedad.aspx"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/home.aspx" Text="Log Out" Value="Log Out">
+                </asp:MenuItem>
+            </Items>
+            <StaticHoverStyle Font-Bold="True" BorderStyle="Inset" 
+                 ForeColor="White" BackColor="#284E98" />
+            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <StaticSelectedStyle BackColor="#507CD1" />
+        </asp:Menu>
+    </asp:Panel>
+    <p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </p>
+    <asp:Panel ID="Panel3" runat="server" 
+        
+        
+    style="z-index: 1; left: 241px; top: 228px; position: absolute; height: 1329px; width: 1044px">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            <p>
+                <br />
+            </p>
+            <p style="z-index: 1; left: 0px; top: 38px; position: absolute; height: 19px; width: 1044px">
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+           
+        </asp:ContentPlaceHolder>
+    </asp:Panel>
+    
+</asp:Content>
+
